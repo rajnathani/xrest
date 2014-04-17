@@ -1,6 +1,6 @@
 {
   "name": "xrest",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "file based routing built over express",
   "main": "lib/index.js",
   "scripts": {
