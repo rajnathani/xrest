@@ -1,11 +1,15 @@
 xrest
 =====
 
-[Imgur](http://i.imgur.com/xfn9rwt.png)
+![Imgur](http://i.imgur.com/xfn9rwt.png)
 
 file based routing built over express
 
-## Meaning of file based routing
+## File based routing ?
+
+Yeah the name is apt to it.  
+With xRest, each file is a route.
+
 
 ### Conventional routing:
 
@@ -17,10 +21,6 @@ file based routing built over express
     app.get('/schools/', function(req, res) {
       return res.render("schools.jade");
     })
-    
-    app.get('/school/professor', function(req, res) {
-      return res.send("professor");
-    });
     
     app.post('/school/:school_id', function(req, res) {
       return res.send(200);
@@ -44,13 +44,8 @@ file based routing built over express
       return res.render("schools.jade");
     }
     
-**route/GET/school/professor.js**
 
-    exports.x = function(req, res) {
-      return res.send("professor");
-    }
-
-**route/POST/school/_school_id_.js**
+**route/POST/school/\_school_id\_.js**
 
     exports.x = function(req, res) {
       return res.send(200);
@@ -63,7 +58,7 @@ file based routing built over express
 
 (1) download:
 
-    npm install xrest
+    npm install xrest --save
     
 (2) enable:
     
