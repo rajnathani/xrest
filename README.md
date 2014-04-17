@@ -7,8 +7,7 @@ file based routing built over express
 
 ## File based routing ?
 
-Yeah the name is apt to it.  
-With xRest, each file is a route.
+With xRest, each file is treated as a route.
 
 
 ### Conventional routing:
