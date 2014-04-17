@@ -34,7 +34,7 @@ With xrest, each file is treated as a route.
       return res.render("schools.jade");
     })
     
-    app.post('/school/:school_id', function(req, res) {
+    app.post('/school/:id', function(req, res) {
       return res.send(200);
     })
     
@@ -57,7 +57,7 @@ With xrest, each file is treated as a route.
     }
     
 
-**route/POST/school/\_school_id\_.js**
+**route/POST/school/\_id\_.js**
 
     exports.x = function(req, res) {
       return res.send(200);
