@@ -5,12 +5,25 @@ xrest
 
 file based routing built over express
 
-## File based routing ?
+# Installation
 
-With xRest, each file is treated as a route.
+(1) download:
+
+    npm install xrest --save
+    
+(2) enable:
+    
+    var express = require('express');
+    var app = express();
+    
+    require('xrest')(app);
+    
+# File based routing ?
+
+With xrest, each file is treated as a route.
 
 
-### Conventional routing:
+## Conventional routing:
 
 **app.js**
     
@@ -27,7 +40,7 @@ With xRest, each file is treated as a route.
     
    
   
-### xRest routing:
+## xrest routing:
   
 **app.js**
 
@@ -51,7 +64,7 @@ With xRest, each file is treated as a route.
     }
 
 
-## Parse Rules
+# Parse Rules
 
 Given a directory:
 
@@ -80,16 +93,26 @@ Given a directory:
 
 
 
-## Installation
+# License
 
-(1) download:
+The MIT License (MIT)
 
-    npm install xrest --save
-    
-(2) enable:
-    
-    var express = require('express');
-    var app = express();
-    
-    require('xrest')(app);
+Copyright (c) 2014 Relfor
 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
