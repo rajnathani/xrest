@@ -1,0 +1,33 @@
+{
+  "name": "xrest",
+  "version": "0.0.0",
+  "description": "file based routing built over express",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/relfor/xrest.git"
+  },
+  "keywords": [
+    "routing",
+    "rest",
+    "express"
+  ],
+  "author": "relfor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/relfor/xrest/issues"
+  },
+  "homepage": "https://github.com/relfor/xrest",
+  "devDependencies": {
+    "express": "^4.0.0",
+    "mocha": "^1.18.2",
+    "should": "^3.3.1",
+    "supertest": "^0.11.0"
+  },
+  "dependencies": {
+    "colors": "^0.6.2"
+  }
+}
